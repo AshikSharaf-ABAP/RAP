@@ -1,0 +1,5 @@
+@EndUserText.label: 'Flight Service'
+define service ZFLIGHT_ASHIK {
+  expose ZI_CONNECTION_ASHIK as Connection;
+  expose ZI_FLIGHT_ASHIK_R   as Flight;
+}
